@@ -34,7 +34,7 @@ class Home extends Component {
                   );
                   return (
                     <Card
-                      key={post["Title"][0]}
+                      key={post["Title"][0] + post["LogDate"][0]}
                       style={{ background: "none" }}
                       color="blue"
                     >
@@ -55,7 +55,9 @@ class Home extends Component {
                         <Button
                           basic
                           color="blue"
-                          onClick={() => (window.location.href = `/${slug}`)}
+                          onClick={() =>
+                            (window.location.href = `/${process.env.PUBLIC_URL}/${slug}`)
+                          }
                         >
                           阅读
                         </Button>

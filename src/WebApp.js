@@ -4,12 +4,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 import MobileApp from "./MobileApp";
 import MediaQuery from "react-responsive";
 import ScrollToTop from "./components/scrollToTop";
+import "semantic-ui-css/semantic.min.css";
 
 class WebApp extends Component {
   state = {};
   render() {
     return (
-      <Router basename="/the-dixie-project">
+      <Router basename="/the-dixie-project/">
         <ScrollToTop>
           {/* Mobile devices */}
           <MediaQuery maxDeviceWidth={1224}>

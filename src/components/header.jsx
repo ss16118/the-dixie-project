@@ -5,7 +5,7 @@ import { Menu, Header, Grid, Segment, Image } from "semantic-ui-react";
 class SiteHeader extends Component {
   constructor(props) {
     super(props);
-    let itemName = window.location.pathname.substr(1);
+    let itemName = window.location.pathname.substr(19);
     if (itemName === "") {
       itemName = "首页";
     } else {

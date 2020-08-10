@@ -21,7 +21,6 @@ class PostSection extends Component {
   render() {
     const { post } = this.state;
     const comments = post["Comments"][0]["Comment"];
-    console.log(post);
     return (
       <React.Fragment>
         <Button

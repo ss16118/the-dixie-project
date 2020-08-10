@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown/with-html";
-import { Container } from "semantic-ui-react";
 import CodeBlock from "./CodeBlock";
 
 function flatten(text, child) {
@@ -37,13 +36,11 @@ class MarkdownSection extends Component {
   render() {
     return (
       <div>
-        <Container>
-          <ReactMarkdown
-            escapeHtml={false}
-            source={this.state.markdownText}
-            renderers={{ code: CodeBlock, heading: HeadingRenderer }}
-          />
-        </Container>
+        <ReactMarkdown
+          escapeHtml={false}
+          source={this.state.markdownText}
+          renderers={{ code: CodeBlock, heading: HeadingRenderer }}
+        />
       </div>
     );
   }

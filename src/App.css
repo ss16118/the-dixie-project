@@ -112,6 +112,10 @@ blockquote {
   color: #666;
   margin: 0;
   padding-left: 1em;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
   border-left: 0.5em #eee solid;
+}
+
+#navbar {
+  transition: top 0.5s;
 }

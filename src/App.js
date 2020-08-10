@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ContentLoader from "./components/contentLoader";
 import "./App.css";
-import "semantic-ui-css/semantic.min.css";
 import { Grid, Segment } from "semantic-ui-react";
 import { Switch, Route } from "react-router-dom";
 import SiteHeader from "./components/header";
@@ -56,9 +55,6 @@ class App extends Component {
     const { postsPartitionedByDate } = this.state;
     const { postsPartitionedByTags } = this.state;
     const { allPosts } = this.state;
-    if (allPosts) {
-      console.log(allPosts.length);
-    }
     return (
       <React.Fragment>
         <div className="image-container">
