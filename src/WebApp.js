@@ -9,7 +9,7 @@ class WebApp extends Component {
   state = {};
   render() {
     return (
-      <Router>
+      <Router basename="/the-dixie-project">
         <ScrollToTop>
           {/* Mobile devices */}
           <MediaQuery maxDeviceWidth={1224}>
