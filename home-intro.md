@@ -34,6 +34,6 @@ Frankly speaking, maybe I started this whole thing only to gain personal satisfa
 
 August 10th, 2020
 
-> P.S. The source code of this site can be found on [Github](https://github.com/ss16118/the-dixie-project). It is single-page react website that is far from being fancy. I have to apologize to my father, for I can't make his site a bit more colorful, but well, I got to say that I really did put my heart into this. As for the language, due to the sheer volume of the contents, I am sorry to say that I can't handle the translation of all 657 blog posts, so unlike my personal website, there won't be an English version.
+> P.S. The source code of this site can be found on [Github](https://github.com/ss16118/the-dixie-project). It's a single-page react website that is far from being fancy. I have to apologize to my father, for I can't make his site a bit more colorful, but well, I got to say that I really did put my heart into this. As for the language, due to the sheer volume of the contents, I am sorry to say that I can't handle the translation of all 657 blog posts, so unlike my personal website, there won't be an English version.
 >
 > P.P.S. It's pretty unlikely I know, but if you wish to contact me, you can always find my contact info on [my webpage](ss16118.github.io/siyuans-hub/).
