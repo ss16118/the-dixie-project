@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.6960f900.chunk.css",
-    "main.js": "/static/js/main.f4585e3a.chunk.js",
-    "main.js.map": "/static/js/main.f4585e3a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.05467a6a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.05467a6a.js.map",
-    "static/css/2.66ae9629.chunk.css": "/static/css/2.66ae9629.chunk.css",
-    "static/js/2.a006f1c4.chunk.js": "/static/js/2.a006f1c4.chunk.js",
-    "static/js/2.a006f1c4.chunk.js.map": "/static/js/2.a006f1c4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.92b41fc745c70790c07105879995ad13.js": "/precache-manifest.92b41fc745c70790c07105879995ad13.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.66ae9629.chunk.css.map": "/static/css/2.66ae9629.chunk.css.map",
-    "static/css/main.6960f900.chunk.css.map": "/static/css/main.6960f900.chunk.css.map",
-    "static/js/2.a006f1c4.chunk.js.LICENSE.txt": "/static/js/2.a006f1c4.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/the-dixie-project/static/css/main.6960f900.chunk.css",
+    "main.js": "/the-dixie-project/static/js/main.831ec348.chunk.js",
+    "main.js.map": "/the-dixie-project/static/js/main.831ec348.chunk.js.map",
+    "runtime-main.js": "/the-dixie-project/static/js/runtime-main.58f64a40.js",
+    "runtime-main.js.map": "/the-dixie-project/static/js/runtime-main.58f64a40.js.map",
+    "static/css/2.0de00554.chunk.css": "/the-dixie-project/static/css/2.0de00554.chunk.css",
+    "static/js/2.a006f1c4.chunk.js": "/the-dixie-project/static/js/2.a006f1c4.chunk.js",
+    "static/js/2.a006f1c4.chunk.js.map": "/the-dixie-project/static/js/2.a006f1c4.chunk.js.map",
+    "index.html": "/the-dixie-project/index.html",
+    "precache-manifest.e64e08279701da8bc1935e63e15996b5.js": "/the-dixie-project/precache-manifest.e64e08279701da8bc1935e63e15996b5.js",
+    "service-worker.js": "/the-dixie-project/service-worker.js",
+    "static/css/2.0de00554.chunk.css.map": "/the-dixie-project/static/css/2.0de00554.chunk.css.map",
+    "static/css/main.6960f900.chunk.css.map": "/the-dixie-project/static/css/main.6960f900.chunk.css.map",
+    "static/js/2.a006f1c4.chunk.js.LICENSE.txt": "/the-dixie-project/static/js/2.a006f1c4.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/the-dixie-project/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.05467a6a.js",
-    "static/css/2.66ae9629.chunk.css",
+    "static/js/runtime-main.58f64a40.js",
+    "static/css/2.0de00554.chunk.css",
     "static/js/2.a006f1c4.chunk.js",
     "static/css/main.6960f900.chunk.css",
-    "static/js/main.f4585e3a.chunk.js"
+    "static/js/main.831ec348.chunk.js"
   ]
 }
