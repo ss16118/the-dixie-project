@@ -18,7 +18,7 @@
 >
 > P.P.S. 如果想和我交流，联系方式能在我简陋的[个人网站](ss16118.github.io/siyuans-hub/)上找到。
 
-## The Dixie Project: A Short Intro
+## The Dixie Project: An Overview
 
 A while back, I found haphazardly in my late father's hard-drive a backup file that contains a complete copy of his old blog. This blog of his was published on BlogBus, a somewhat ancient Chinese blog hosting provider. I searched around on the Internet and found that BlogBus has been out of service for a while now, and it is quite troublesome to transfer the backup file to WordPress and set up a new blog there. Since I sort of finished my [personal website](ss16118.github.io/siyuans-hub/) about two weeks ago, the first thing that came into my mind was I would like to rebuild my father's blog by myself. Well, if you ask me why do I even bother, my answer will be that the Movie "Coco" has been a memorable film to me. I remember clearly that one of the themes (morals) in the movie is that a person dies three times in his or her life, and no one truly dies unless he or she is forgotten by everyone (something like that). Or, if you want me to be fancy, there is a quote from David Eagleman that says the same thing:
 
