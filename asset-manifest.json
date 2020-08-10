@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/the-dixie-project/static/css/main.6960f900.chunk.css",
-    "main.js": "/the-dixie-project/static/js/main.831ec348.chunk.js",
-    "main.js.map": "/the-dixie-project/static/js/main.831ec348.chunk.js.map",
+    "main.css": "/the-dixie-project/static/css/main.2f50c3eb.chunk.css",
+    "main.js": "/the-dixie-project/static/js/main.cf263cc3.chunk.js",
+    "main.js.map": "/the-dixie-project/static/js/main.cf263cc3.chunk.js.map",
     "runtime-main.js": "/the-dixie-project/static/js/runtime-main.58f64a40.js",
     "runtime-main.js.map": "/the-dixie-project/static/js/runtime-main.58f64a40.js.map",
-    "static/css/2.0de00554.chunk.css": "/the-dixie-project/static/css/2.0de00554.chunk.css",
-    "static/js/2.a006f1c4.chunk.js": "/the-dixie-project/static/js/2.a006f1c4.chunk.js",
-    "static/js/2.a006f1c4.chunk.js.map": "/the-dixie-project/static/js/2.a006f1c4.chunk.js.map",
+    "static/css/2.16c17f62.chunk.css": "/the-dixie-project/static/css/2.16c17f62.chunk.css",
+    "static/js/2.5a853fbd.chunk.js": "/the-dixie-project/static/js/2.5a853fbd.chunk.js",
+    "static/js/2.5a853fbd.chunk.js.map": "/the-dixie-project/static/js/2.5a853fbd.chunk.js.map",
     "index.html": "/the-dixie-project/index.html",
-    "precache-manifest.e64e08279701da8bc1935e63e15996b5.js": "/the-dixie-project/precache-manifest.e64e08279701da8bc1935e63e15996b5.js",
+    "precache-manifest.03a8cec3825bc47fa41a9fd86df93130.js": "/the-dixie-project/precache-manifest.03a8cec3825bc47fa41a9fd86df93130.js",
     "service-worker.js": "/the-dixie-project/service-worker.js",
-    "static/css/2.0de00554.chunk.css.map": "/the-dixie-project/static/css/2.0de00554.chunk.css.map",
-    "static/css/main.6960f900.chunk.css.map": "/the-dixie-project/static/css/main.6960f900.chunk.css.map",
-    "static/js/2.a006f1c4.chunk.js.LICENSE.txt": "/the-dixie-project/static/js/2.a006f1c4.chunk.js.LICENSE.txt",
+    "static/css/2.16c17f62.chunk.css.map": "/the-dixie-project/static/css/2.16c17f62.chunk.css.map",
+    "static/css/main.2f50c3eb.chunk.css.map": "/the-dixie-project/static/css/main.2f50c3eb.chunk.css.map",
+    "static/js/2.5a853fbd.chunk.js.LICENSE.txt": "/the-dixie-project/static/js/2.5a853fbd.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/the-dixie-project/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.58f64a40.js",
-    "static/css/2.0de00554.chunk.css",
-    "static/js/2.a006f1c4.chunk.js",
-    "static/css/main.6960f900.chunk.css",
-    "static/js/main.831ec348.chunk.js"
+    "static/css/2.16c17f62.chunk.css",
+    "static/js/2.5a853fbd.chunk.js",
+    "static/css/main.2f50c3eb.chunk.css",
+    "static/js/main.cf263cc3.chunk.js"
   ]
 }

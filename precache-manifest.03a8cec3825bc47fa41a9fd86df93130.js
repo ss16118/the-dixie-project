@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42589f21121928d5ddf742ba7f4e3a81",
+    "revision": "906159d80267f7158652ba3cbe7956da",
     "url": "/the-dixie-project/index.html"
   },
   {
-    "revision": "0d47e3af4a3a670a50d0",
-    "url": "/the-dixie-project/static/css/2.0de00554.chunk.css"
+    "revision": "8cba514baa697d671840",
+    "url": "/the-dixie-project/static/css/2.16c17f62.chunk.css"
   },
   {
-    "revision": "3ec1b69c24382675ab45",
-    "url": "/the-dixie-project/static/css/main.6960f900.chunk.css"
+    "revision": "43909994d1bf1893fbfc",
+    "url": "/the-dixie-project/static/css/main.2f50c3eb.chunk.css"
   },
   {
-    "revision": "0d47e3af4a3a670a50d0",
-    "url": "/the-dixie-project/static/js/2.a006f1c4.chunk.js"
+    "revision": "8cba514baa697d671840",
+    "url": "/the-dixie-project/static/js/2.5a853fbd.chunk.js"
   },
   {
     "revision": "6cd5f00fe768489d1d995e9c8cf3c4dd",
-    "url": "/the-dixie-project/static/js/2.a006f1c4.chunk.js.LICENSE.txt"
+    "url": "/the-dixie-project/static/js/2.5a853fbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ec1b69c24382675ab45",
-    "url": "/the-dixie-project/static/js/main.831ec348.chunk.js"
+    "revision": "43909994d1bf1893fbfc",
+    "url": "/the-dixie-project/static/js/main.cf263cc3.chunk.js"
   },
   {
     "revision": "572fa8d1225ee01b1908",
