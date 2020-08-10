@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "906159d80267f7158652ba3cbe7956da",
+    "revision": "57f9597b81f41bd7dfc8d7e56e2d359c",
     "url": "/the-dixie-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-dixie-project/static/css/2.16c17f62.chunk.css"
   },
   {
-    "revision": "43909994d1bf1893fbfc",
+    "revision": "97f15fb07f8be37deb8c",
     "url": "/the-dixie-project/static/css/main.2f50c3eb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-dixie-project/static/js/2.5a853fbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43909994d1bf1893fbfc",
-    "url": "/the-dixie-project/static/js/main.cf263cc3.chunk.js"
+    "revision": "97f15fb07f8be37deb8c",
+    "url": "/the-dixie-project/static/js/main.2ec6215d.chunk.js"
   },
   {
     "revision": "572fa8d1225ee01b1908",
