@@ -56,7 +56,7 @@ class Home extends Component {
                           basic
                           color="blue"
                           onClick={() =>
-                            (window.location.href = `/${process.env.PUBLIC_URL}/${slug}`)
+                            (window.location.href = `${process.env.PUBLIC_URL}/${slug}`)
                           }
                         >
                           阅读

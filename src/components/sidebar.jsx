@@ -33,7 +33,7 @@ class SideBar extends Component {
 
   handleSearchClick = () => {
     const encodedValue = new Buffer(this.state.searchValue).toString("hex");
-    window.location.href = `/search/${encodedValue}`;
+    window.location.href = `${process.env.PUBLIC_URL}/search/${encodedValue}`;
   };
 
   render() {

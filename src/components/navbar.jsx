@@ -16,7 +16,7 @@ class NavBar extends Component {
   state = {};
   constructor(props) {
     super(props);
-    let itemName = window.location.pathname.substr(1);
+    let itemName = window.location.pathname.substr(19);
     if (itemName === "") {
       itemName = "首页";
     } else {
@@ -32,7 +32,7 @@ class NavBar extends Component {
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
   handleSearchClick = () => {
     const encodedValue = new Buffer(this.state.searchValue).toString("hex");
-    window.location.href = `/search/${encodedValue}`;
+    window.location.href = `${process.env.PUBLIC_URL}/search/${encodedValue}`;
   };
   render() {
     const { activeItem } = this.state;
@@ -60,7 +60,7 @@ class NavBar extends Component {
             <Image
               circular
               src={process.env.PUBLIC_URL + "/favicon/favicon-32x32.png"}
-              onClick={() => (window.location.href = "/")}
+              onClick={() => (window.location.href = process.env.PUBLIC_URL)}
             />
           </Menu.Item>
           <Menu.Item
