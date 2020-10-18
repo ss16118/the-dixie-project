@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/the-dixie-project/static/css/main.2f50c3eb.chunk.css",
-    "main.js": "/the-dixie-project/static/js/main.2ec6215d.chunk.js",
-    "main.js.map": "/the-dixie-project/static/js/main.2ec6215d.chunk.js.map",
+    "main.js": "/the-dixie-project/static/js/main.d827ee59.chunk.js",
+    "main.js.map": "/the-dixie-project/static/js/main.d827ee59.chunk.js.map",
     "runtime-main.js": "/the-dixie-project/static/js/runtime-main.58f64a40.js",
     "runtime-main.js.map": "/the-dixie-project/static/js/runtime-main.58f64a40.js.map",
     "static/css/2.16c17f62.chunk.css": "/the-dixie-project/static/css/2.16c17f62.chunk.css",
     "static/js/2.5a853fbd.chunk.js": "/the-dixie-project/static/js/2.5a853fbd.chunk.js",
     "static/js/2.5a853fbd.chunk.js.map": "/the-dixie-project/static/js/2.5a853fbd.chunk.js.map",
     "index.html": "/the-dixie-project/index.html",
-    "precache-manifest.3f08bc9901f6d5085843815381dba5ad.js": "/the-dixie-project/precache-manifest.3f08bc9901f6d5085843815381dba5ad.js",
+    "precache-manifest.7e44db5419693778e4a3712fa1cff213.js": "/the-dixie-project/precache-manifest.7e44db5419693778e4a3712fa1cff213.js",
     "service-worker.js": "/the-dixie-project/service-worker.js",
     "static/css/2.16c17f62.chunk.css.map": "/the-dixie-project/static/css/2.16c17f62.chunk.css.map",
     "static/css/main.2f50c3eb.chunk.css.map": "/the-dixie-project/static/css/main.2f50c3eb.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.16c17f62.chunk.css",
     "static/js/2.5a853fbd.chunk.js",
     "static/css/main.2f50c3eb.chunk.css",
-    "static/js/main.2ec6215d.chunk.js"
+    "static/js/main.d827ee59.chunk.js"
   ]
 }
