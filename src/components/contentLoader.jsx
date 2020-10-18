@@ -72,6 +72,10 @@ class ContentLoader {
     return partitions;
   }
 
+  /**
+   * Partition the blog posts by tags
+   * @param posts: suppose posts is already in json form
+   */
   partitionPostsByTags(posts) {
     const partitions = {};
     posts.forEach((post) => {

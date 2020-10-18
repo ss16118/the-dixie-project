@@ -28,7 +28,7 @@ class ListWithPagination extends Component {
     }
   }
 
-  handlePageChange = (event, data) => {
+  handlePageChange = (_, data) => {
     this.setState({ currentPage: data.activePage - 1 });
   };
 

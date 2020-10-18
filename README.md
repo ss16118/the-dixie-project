@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Dixie Project
 
-## Available Scripts
+The site is live at [https://ss16118.github.io/the-dixie-project](https://ss16118.github.io/the-dixie-project).
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+This site displays all the blog entries which my father, who passed away in 2019, wrote and published on BlogBus (博客大巴), a Chinese Blog hosting provider that was shut down in 2018. Most posts shown here are actually more like tweets. Some express my father's opinions and feelings on certain subjects, and others are simply quotes from a book or lyrics from a song that he really enjoyed. Although my father was a translator and diplomat by profession, he was interested in quite a few other things, such as photography, video games, movies, and reading. Therefore, the topics of his posts were fairly diverse. Among all the areas that he dabbled in, IT was the subject he was truly into. Frankly speaking, I probably would not have chosen to study computer science without his guidance. In short, this site was built as a memorial to him, and I plan to expand it some day.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The website is written in ReactJS, and only serves static content. The blog posts come from the backup file of my father's blog, which is named *howe-blog.xml*, and stored in the *public* folder. Since XML files are not easily manipulated, the blog file is first parsed to Json. For those BlogBus users who also want to rebuild their personal blogs from backup xml files, the format of the XML file is as follows, and I hope this project can be of some help.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```XML
+<blogbuscom dtype="BlogData" SchemaVersion="1.1" Creator="BlogBus.Com BlogSystem V4.0">
+// The datatype and origin of the file
+    <description> // Blog description
+        <blogname>Blog name (e.g. Siyuan's Blog)</blogname>
+        <domainname>Domain name of the blog (e.g. sunnantechnology.blogbus.com)</domainname>
+        <exporttime>The time at which the file was exported, format: 2008-12-20 15:43:26</exporttime>
+    </description> // End of blog description
+    <log> // Blog
+        <title>Blog post title (e.g. Introduction to ReactJS)</title>
+        <status>Status of the post (0: Hide, 1: Display normally, 3: Sticky)</status>
+        <allowcomment>Whether this post allows comments (Y: Yes, N: No)</allowcomment>
+        <allowping>Whether this post is allowed to be referenced (Y: Yes, N: No)</allowping>
+        <allowlinks>Whether this post is allowed to be linked to (Y: Yes, N: No)</allowlinks>
+        <writer>Name of the author</writer>
+        <sort>The category to which the post belongs</sort>
+        <content>Main content of the post</content>
+        <excerpt>Excerpt of the post</excerpt>
+        <tags>Tags</tags>
+        <logdate>The time at which this post is published, format: 2008-04-17 13:40:00</logdate>
+        <comments> // Start of comments
+            <comment> // Start of a comment
+                <email>Email address of the commenter</email>
+                <homepage>Homepage of the commenter (if the commenter also has BlogPost comment)</homepage>
+                <createtime>The time at which this comment was created, format: 2008-12-19 21:45:48</createtime>
+                <nicename>The username of the commenter</nicename>
+                <commenttext>Content of the comment</commenttext>
+            </comment> // End of a comment
+            <comment>...</comment> // Another comment
+        </comments> // End of comments
+    </log> // End of blog 
+    <log>...</log> // Another blog
+</blogbuscom> // End of the file
+```
+---
 
-### `yarn test`
+### To Do
+- Use lazy loading to optimize the loading process.
+- Create a proper backend for the blog so that new comments can be added.
+- Optimize user interface on the mobile version of the website.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

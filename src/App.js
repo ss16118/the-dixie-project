@@ -16,6 +16,9 @@ const parseString = require("xml2js").parseString;
 
 const itemsPerPage = 25;
 
+const BLOG_FILE = "/howe-blog.xml"
+const BACKGROUND_IMAGE = "/images/background.jpg"
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -27,14 +30,14 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const loader = new ContentLoader(process.env.PUBLIC_URL + "/howe-blog.xml");
-    const promise = new Promise(function (resolve, reject) {
+    const loader = new ContentLoader(process.env.PUBLIC_URL + BLOG_FILE);
+    const promise = new Promise(function (resolve, _) {
       const content = loader.loadBlog();
       resolve(content);
     });
     promise.then(
       (content) => {
-        parseString(content, (err, blog) => {
+        parseString(content, (_, blog) => {
           blog = blog["BlogBusCom"];
           this.setState({
             allPosts: blog["Log"],
@@ -61,7 +64,7 @@ class App extends Component {
           <img
             className="center-fit"
             alt="background"
-            src={process.env.PUBLIC_URL + "/images/background.jpg"}
+            src={process.env.PUBLIC_URL + BACKGROUND_IMAGE}
           />
         </div>
         <Grid>

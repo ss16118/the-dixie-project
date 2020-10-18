@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 //  set the highlight
 import { coy } from "react-syntax-highlighter/dist/esm/styles/prism";
-//
+
 import {
   jsx,
   javascript,
@@ -22,8 +22,6 @@ class CodeBlock extends PureComponent {
   };
 
   componentWillMount() {
-    //
-    //
     SyntaxHighlighter.registerLanguage("jsx", jsx);
     SyntaxHighlighter.registerLanguage("javascript", javascript);
     SyntaxHighlighter.registerLanguage("typescript", typescript);

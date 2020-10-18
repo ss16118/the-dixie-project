@@ -16,7 +16,7 @@ class SiteHeader extends Component {
     };
   }
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+  handleItemClick = (_, { name }) => this.setState({ activeItem: name });
 
   render() {
     const { activeItem } = this.state;
